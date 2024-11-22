@@ -7705,6 +7705,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel:hover .owl-nav .owl-next {
     right: -25px; }
   .owl-carousel.home-slider {
+    pointer-events: none; 
     position: relative;
     height: 750px;
     z-index: 0; }
@@ -7717,6 +7718,7 @@ h1, h2, h3, h4, h5,
       z-index: 0; }
       @media (max-width: 1199.98px) {
         .owl-carousel.home-slider .slider-item {
+          
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
